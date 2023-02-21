@@ -1,0 +1,105 @@
+body{background:whitesmoke; margin: 0;}
+
+@font-face {
+    font-family: Arista;
+    src: url(Arista-Pro-Light-trial.ttf);
+}
+
+/* DIV DO CABEÇALHO - POSTERIOR A LINHA HR ( H1, BARRA DE PESQUISA E BOTÃO) */
+    #initialHeader{
+    width: 100vw; height: 11vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.2vh;
+    }
+    .initialHeaderChild:hover{
+        color: #2a2f86;
+    }
+
+    #img{
+        width: 18px;
+        height: 18px;
+        position: relative;
+        left: 5px;
+        fill: #424794;
+        
+    }
+
+    .initialHeaderChild {
+    margin: 0 auto;
+    font-family: Arista;
+    color: #424794;
+    font-size: 7vh;
+    text-decoration: none;
+    }
+    
+    .initialHeaderCousin {
+        margin: 0 auto;
+        font-size: 2.3vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border: 1px solid; border-radius: 50px;
+        color: rgb(48, 48, 155);
+        width: 90px; height: 5vh;  
+    }
+    .initialHeaderCousin:hover{
+        background-color: rgba(234, 234, 236, 0.719);
+    }
+
+    #search{
+        width: 30vw;
+        height: 5.5vh;
+        border: 1px solid #424794;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #searchButton{
+        border: none;
+        text-align: center; font-size: 17px;
+        width: 85%; height: 80%;
+    }
+
+    #searchButton:focus{
+        outline: none;
+    }
+ 
+   
+
+
+
+    /* QUEBRA LINHA - HR (E AS OPÇÕES DE TRABALHO DA TELA INICIAL) */
+    #breakLine{
+    border-color: whitesmoke; border-style: solid;
+    width:100vw; top: 60px; 
+    position: absolute;
+    }
+     
+    #secondHeader{
+    background-color: #ffffff;      box-shadow: 0 5px 5px  #cecece;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+    padding-bottom: 4px;
+    
+   }
+   .optionsWork{
+    background: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.747);
+    text-decoration: none;
+   }
+
+   .optionsWork:hover{
+    color: rgba(0, 0, 0, 0.596);
+   }
+
+
